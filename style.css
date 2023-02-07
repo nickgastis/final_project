@@ -8,3 +8,10 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     color: #45b3e0;
 }
+
+h2 {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #457fa8;
+}
