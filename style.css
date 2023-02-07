@@ -1,17 +1,41 @@
 body {
-    background: #c9e9f6;
-}
+    background-image: linear-gradient(rgb(194, 249, 255), rgb(0, 188, 240));
+      }
 
 h1 {
     text-align: center;
-    font-size: 250px;
+    font-size: 150px;
     font-family: 'Courier New', Courier, monospace;
-    color: #45b3e0;
+    color: #527380;
 }
 
 h2 {
     text-align: center;
-    font-size: 101px;
+    font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
-    color: #457fa8;
+    color: #6a7e8c;
+    margin-top: -60px;
+}
+
+#Nick-Portrait {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    border-radius: 40px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #6a7e8c;
+}
+
+ul {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #6a7e8c;
 }
