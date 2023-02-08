@@ -2,7 +2,7 @@ body {
     background-image: linear-gradient(rgb(202, 202, 202), rgb(131, 131, 131));
       }
 
-h1 {
+#header {
     text-align: center;
     font-size: 150px;
     font-family: 'Courier New', Courier, monospace;
@@ -24,9 +24,14 @@ h2 {
     width: 50%;
     height: auto;
     border-radius: 40px;
+    transition: 2s;
+}
+#Nick-Portrait:hover {
+    transform: scale(1.1);
+    transition: 2s;
 }
 
-h3 {
+#skills {
     text-align: center;
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
@@ -40,3 +45,36 @@ ul {
     font-family: 'Courier New', Courier, monospace;
     color: #dcdcdc;
 }
+
+p {
+    display: block;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #dcdcdc;
+}
+
+#button1 {
+    text-align: center;
+    margin: auto;
+    display: grid;
+    margin-top: 60px;
+    size: 50px;
+    background-color: #5b6269;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.281);
+    transition: 0.7s;
+  }
+
+  #button1:hover {
+    background-color: #dcdcdc;
+    color: #5b6269;
+    transition: 0.7s;
+  }
