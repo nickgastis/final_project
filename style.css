@@ -78,3 +78,20 @@ p {
     color: #5b6269;
     transition: 0.7s;
   }
+
+  #socialsheader {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #dcdcdc;
+  }
+
+  #socialsList {
+    list-style-type: none;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
